@@ -2,7 +2,7 @@
 This repository contains my public notes regarding my experiences with the SQLi topic on PortSwigger Academy.
 
 **Date:** January 3, 2026  
-[cite_start]**Source:** PortSwigger Academy & Personal Study Notes [cite: 1]
+**Source:** PortSwigger Academy & Personal Study Notes
 
 ---
 
