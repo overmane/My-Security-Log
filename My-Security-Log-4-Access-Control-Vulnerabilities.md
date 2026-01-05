@@ -1,5 +1,5 @@
 # My-Security-Log-4-Access-Control-Vulnerabilities
-This my public notes regarding my experiences with the OS Command Injection topic on PortSwigger Academy.
+This my public notes regarding my experiences with the Access Control Vulnerabilities topic on PortSwigger Academy.
 
 **Date:** January 5, 2026  
 **Source:** PortSwigger Academy & Personal Study Notes
