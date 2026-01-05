@@ -54,7 +54,7 @@ When the environment is completely "blind" and firewalls block direct output, we
 ---
 
 ## Future Roadmap
-* **IDOR (Access control vulnerabilities)** repeat and reinforce.
+* **IDOR (Access control vulnerabilities):** repeat and reinforce.
 
 ---
 *Notes compiled based on PortSwigger Academy research materials.*
