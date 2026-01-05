@@ -56,6 +56,7 @@ function handleResponse() {
     changeReq.open('post', '/my-account/change-email', true);
     changeReq.send('csrf='+token+'&email=test@test.com');
 };
+```
 
 ---
 
