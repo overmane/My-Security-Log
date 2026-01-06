@@ -47,10 +47,10 @@ When simple filters are in place, attackers use various "camouflage" techniques 
 > **Author's Perspective:**
 > Working with File Upload vulnerabilities is arguably the most engaging part. You're no longer just trying to abuse the frontend like in XSS or scamming authorization logic — you're trying to push for RCE. The filter pushes back, and you try every which way to shove your `<?php...?>` through the gap.
 >
-> When it comes to the danger of these vulnerabilities—it’s no joke; it’s a severe security breach. Any kid with a laptop these days will eventually try to drop a shell into your upload form, and you’d better have a filter more robust than just checking if `.php` becomes `.PhP` before saying "Welcome aboard!"
+> When it comes to the danger of these vulnerabilities — it’s no joke; it’s a severe security breach. Any kid with a laptop these days will eventually try to drop a shell into your upload form, and you’d better have a filter more robust than just checking if `.php` becomes `.PhP` before saying "Welcome aboard!"
 >
 > **Remediation Strategies:**
-> * **a) No blacklists, obviously—only whitelists:** Always validate only the final extension after the very last dot.
+> * **a) No blacklists, obviously — only whitelists:** Always validate only the final extension after the very last dot.
 > * **b) Filename regeneration:** If you receive `photo.jpg`, save it as something like `a7f2...56b.jpg`.
 > * **c) Don't trust Content-Type headers:** Never trust the header from the request; the server must read the file's first bytes to determine its true type. In PHP, the `Fileinfo` extension is built for this.
 > * **d) Image re-processing:** After upload, the server should pass the image through a graphics library (like GD or ImageMagick) to create a copy—all unnecessary metadata and any hidden PHP code in comments will be wiped.
