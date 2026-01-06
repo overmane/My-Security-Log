@@ -46,7 +46,7 @@ If session cookies are generated using a formula (e.g., `Base64(username + ":" +
 > **Author's Perspective:**
 > This category of vulnerabilities is built entirely on abusing authorization logic. Based on my research in the Academy, I've gathered a few core realizations:
 >
-> As a developer, the goal is to create "mute" authentication pages. They shouldn't give away any hints—no "user exists" vs "user doesn't exist" games. Using credentials (like MD5 of a password) to generate cookies is a massive "no-go"; stick to pure randomness.
+> As a developer, the goal is to create "mute" authentication pages. They shouldn't give away any hints — no "user exists" vs "user doesn't exist" games. Using credentials (like MD5 of a password) to generate cookies is a massive "no-go"; stick to pure randomness.
 >
 > The "Golden Standards" for defense:
 > * **Blind Responses:** Use generic error messages like "Invalid credentials" for both wrong usernames and wrong passwords.
